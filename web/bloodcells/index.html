@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Your Journey to Earth on Mother's Day with Three.js| #iamshouvikmitra</title>
+		<meta name="description" content="Infinite WebGL tubes as seen on Fornasetti.com made with Three.js" />
+		<meta name="keywords" content="webgl, effect, tube, infinite, interactive, threejs, background, canvas" />
+		<meta name="author" content="Louis Hoebregts for experiment" />
+		<link rel="shortcut icon" href="favicon.jpg">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/ma.css" />
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body class="demo-4">
+		<main>
+			<header class="experiment-header">
+				<h1 class="experiment-header__title">Your Journey to Earth</h1>
+				<nav class="demos">
+					<a class="demo" href="https://iamshouvikmitra.github.io">Home</a>
+					<a class="demo" href="https://iamshouvikmitra.blogspot.com">Blog</a>
+					<a class="demo demo--current" href="#">Experiments</a>
+				</nav>
+				<p class="experiment-header__tagline">This Mother's Day re-live your journey in WebGL inspired by the effect seen on <a href="http://www.fornasetti.com/">Fornasetti</a></p>
+				<p class="experiment-header__info">Click and hold to release more particles</p>
+			</header>
+			<div class="content">
+				<!-- The canvas where ThreeJs renders the WebGL -->
+				<canvas id="scene" class="clickable"></canvas>
+			</div>
+		</main>
+		<script src="js/vendors/three.min.js"></script>
+		<script src="js/vendors/OBJLoader.js"></script>
+		<script src="js/vendors/TweenMax.min.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
+</html>
